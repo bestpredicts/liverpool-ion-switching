@@ -1,0 +1,326 @@
+2020-04-27 15:13:47.267707: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.1/lib64:/usr/local/cuda-10.1/lib64:/usr/local/cuda/lib64:
+2020-04-27 15:13:47.267830: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.1/lib64:/usr/local/cuda-10.1/lib64:/usr/local/cuda/lib64:
+2020-04-27 15:13:47.267850: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-27 15:14:04.099295: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-27 15:14:04.123224: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394530000 Hz
+2020-04-27 15:14:04.123393: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5575f87ef1b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-27 15:14:04.123429: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-04-27 15:14:04.126478: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-04-27 15:14:04.259817: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5575f7f715a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-04-27 15:14:04.259885: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX TITAN X, Compute Capability 5.2
+2020-04-27 15:14:04.262318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:06:00.0 name: GeForce GTX TITAN X computeCapability: 5.2
+coreClock: 1.2405GHz coreCount: 24 deviceMemorySize: 11.93GiB deviceMemoryBandwidth: 313.37GiB/s
+2020-04-27 15:14:04.262741: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-27 15:14:04.265677: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-27 15:14:04.268101: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-27 15:14:04.268600: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-27 15:14:04.271354: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-27 15:14:04.272176: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-27 15:14:04.275201: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-27 15:14:04.277542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-04-27 15:14:04.277596: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-27 15:14:04.279582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-27 15:14:04.279607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-04-27 15:14:04.279617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-04-27 15:14:04.281986: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11497 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:06:00.0, compute capability: 5.2)
+WARNING:tensorflow:From wavenet-with-shifted-rfc-proba-and-cbr.py:268: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+2020-04-27 15:14:11.621563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:06:00.0 name: GeForce GTX TITAN X computeCapability: 5.2
+coreClock: 1.2405GHz coreCount: 24 deviceMemorySize: 11.93GiB deviceMemoryBandwidth: 313.37GiB/s
+2020-04-27 15:14:11.621652: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-27 15:14:11.621679: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-27 15:14:11.621702: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-27 15:14:11.621725: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-27 15:14:11.621747: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-27 15:14:11.621769: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-27 15:14:11.621792: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-27 15:14:11.623914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-04-27 15:14:11.625359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:06:00.0 name: GeForce GTX TITAN X computeCapability: 5.2
+coreClock: 1.2405GHz coreCount: 24 deviceMemorySize: 11.93GiB deviceMemoryBandwidth: 313.37GiB/s
+2020-04-27 15:14:11.625401: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-27 15:14:11.625429: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-27 15:14:11.625454: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-27 15:14:11.625478: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-27 15:14:11.625503: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-27 15:14:11.625528: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-27 15:14:11.625553: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-27 15:14:11.627639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-04-27 15:14:11.627674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-27 15:14:11.627686: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-04-27 15:14:11.627695: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-04-27 15:14:11.629790: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11497 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:06:00.0, compute capability: 5.2)
+WARNING:tensorflow:From /home/dy/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1786: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2020-04-27 15:14:36.714623: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-27 15:14:36.996349: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+../input/data-without-drift.zip
+../input/Y_test_proba.npy
+../input/train_clean_kalman.csv.zip
+../input/train_clean.csv
+../input/train_clean_kalman.csv
+../input/test_clean.csv
+../input/Y_train_proba.npy.zip
+../input/test_clean_kalman.csv.zip
+../input/test_clean_kalman.csv
+../input/liverpool-ion-switching.zip
+../input/sample_submission.csv
+../input/Y_train_proba.npy
+../input/train.csv
+../input/test.csv
+../input/Y_test_proba.npy.zip
+Reading Data Started...
+Reading and Normalizing Data Completed
+Creating Features
+Feature Engineering Started...
+Feature Engineering Completed...
+Training Wavenet model with 5 folds of GroupKFold Started...
+Our training dataset shape is (1000, 4000, 42)
+Our validation dataset shape is (250, 4000, 42)
+Train on 1000 samples, validate on 250 samples
+Epoch 1/180
+F1 Macro Score: 0.72620
+1000/1000 - 45s - loss: 0.5469 - accuracy: 0.8511 - val_loss: 1.0505 - val_accuracy: 0.8894
+Epoch 2/180
+F1 Macro Score: 0.87563
+1000/1000 - 14s - loss: 0.1965 - accuracy: 0.9563 - val_loss: 0.4469 - val_accuracy: 0.9571
+Epoch 3/180
+F1 Macro Score: 0.93434
+1000/1000 - 14s - loss: 0.1475 - accuracy: 0.9642 - val_loss: 0.2250 - val_accuracy: 0.9648
+Epoch 4/180
+F1 Macro Score: 0.93637
+1000/1000 - 14s - loss: 0.1335 - accuracy: 0.9656 - val_loss: 0.1505 - val_accuracy: 0.9657
+Epoch 5/180
+F1 Macro Score: 0.93602
+1000/1000 - 14s - loss: 0.1253 - accuracy: 0.9662 - val_loss: 0.1206 - val_accuracy: 0.9661
+Epoch 6/180
+F1 Macro Score: 0.93702
+1000/1000 - 14s - loss: 0.1223 - accuracy: 0.9664 - val_loss: 0.1121 - val_accuracy: 0.9662
+Epoch 7/180
+F1 Macro Score: 0.93744
+1000/1000 - 14s - loss: 0.1166 - accuracy: 0.9666 - val_loss: 0.1073 - val_accuracy: 0.9665
+Epoch 8/180
+F1 Macro Score: 0.93785
+1000/1000 - 14s - loss: 0.1160 - accuracy: 0.9665 - val_loss: 0.1031 - val_accuracy: 0.9666
+Epoch 9/180
+F1 Macro Score: 0.93740
+1000/1000 - 14s - loss: 0.1106 - accuracy: 0.9669 - val_loss: 0.1026 - val_accuracy: 0.9665
+Epoch 10/180
+F1 Macro Score: 0.93712
+1000/1000 - 14s - loss: 0.1116 - accuracy: 0.9666 - val_loss: 0.1033 - val_accuracy: 0.9663
+Epoch 11/180
+F1 Macro Score: 0.93733
+1000/1000 - 14s - loss: 0.1077 - accuracy: 0.9670 - val_loss: 0.1003 - val_accuracy: 0.9665
+Epoch 12/180
+F1 Macro Score: 0.93784
+1000/1000 - 14s - loss: 0.1058 - accuracy: 0.9671 - val_loss: 0.0975 - val_accuracy: 0.9668
+Epoch 13/180
+F1 Macro Score: 0.93817
+1000/1000 - 14s - loss: 0.1062 - accuracy: 0.9669 - val_loss: 0.0973 - val_accuracy: 0.9669
+Epoch 14/180
+F1 Macro Score: 0.93674
+1000/1000 - 14s - loss: 0.1044 - accuracy: 0.9670 - val_loss: 0.1000 - val_accuracy: 0.9662
+Epoch 15/180
+F1 Macro Score: 0.93770
+1000/1000 - 14s - loss: 0.1044 - accuracy: 0.9669 - val_loss: 0.0961 - val_accuracy: 0.9667
+Epoch 16/180
+F1 Macro Score: 0.93761
+1000/1000 - 14s - loss: 0.1008 - accuracy: 0.9671 - val_loss: 0.0948 - val_accuracy: 0.9666
+Epoch 17/180
+F1 Macro Score: 0.93710
+1000/1000 - 14s - loss: 0.0999 - accuracy: 0.9671 - val_loss: 0.0956 - val_accuracy: 0.9666
+Epoch 18/180
+F1 Macro Score: 0.93724
+1000/1000 - 14s - loss: 0.0982 - accuracy: 0.9673 - val_loss: 0.0951 - val_accuracy: 0.9666
+Epoch 19/180
+F1 Macro Score: 0.93773
+1000/1000 - 14s - loss: 0.0994 - accuracy: 0.9671 - val_loss: 0.0933 - val_accuracy: 0.9668
+Epoch 20/180
+F1 Macro Score: 0.93758
+1000/1000 - 14s - loss: 0.0978 - accuracy: 0.9673 - val_loss: 0.0937 - val_accuracy: 0.9666
+Epoch 21/180
+F1 Macro Score: 0.93711
+1000/1000 - 14s - loss: 0.0962 - accuracy: 0.9672 - val_loss: 0.0933 - val_accuracy: 0.9664
+Epoch 22/180
+F1 Macro Score: 0.93738
+1000/1000 - 14s - loss: 0.0974 - accuracy: 0.9671 - val_loss: 0.0928 - val_accuracy: 0.9667
+Epoch 23/180
+F1 Macro Score: 0.93752
+1000/1000 - 14s - loss: 0.0953 - accuracy: 0.9673 - val_loss: 0.0934 - val_accuracy: 0.9666
+Epoch 24/180
+F1 Macro Score: 0.93785
+1000/1000 - 14s - loss: 0.0977 - accuracy: 0.9672 - val_loss: 0.0927 - val_accuracy: 0.9668
+Epoch 25/180
+F1 Macro Score: 0.93750
+1000/1000 - 14s - loss: 0.0976 - accuracy: 0.9671 - val_loss: 0.0926 - val_accuracy: 0.9666
+Epoch 26/180
+F1 Macro Score: 0.93438
+1000/1000 - 14s - loss: 0.0953 - accuracy: 0.9673 - val_loss: 0.0948 - val_accuracy: 0.9662
+Epoch 27/180
+F1 Macro Score: 0.93788
+1000/1000 - 14s - loss: 0.0931 - accuracy: 0.9676 - val_loss: 0.0905 - val_accuracy: 0.9669
+Epoch 28/180
+F1 Macro Score: 0.93338
+1000/1000 - 14s - loss: 0.0923 - accuracy: 0.9677 - val_loss: 0.0967 - val_accuracy: 0.9654
+Epoch 29/180
+F1 Macro Score: 0.93811
+1000/1000 - 14s - loss: 0.0932 - accuracy: 0.9674 - val_loss: 0.0918 - val_accuracy: 0.9669
+Epoch 30/180
+F1 Macro Score: 0.93721
+1000/1000 - 14s - loss: 0.0956 - accuracy: 0.9673 - val_loss: 0.0938 - val_accuracy: 0.9663
+Epoch 31/180
+F1 Macro Score: 0.93786
+1000/1000 - 14s - loss: 0.0914 - accuracy: 0.9679 - val_loss: 0.0893 - val_accuracy: 0.9670
+Epoch 32/180
+F1 Macro Score: 0.93791
+1000/1000 - 14s - loss: 0.0902 - accuracy: 0.9679 - val_loss: 0.0888 - val_accuracy: 0.9671
+Epoch 33/180
+F1 Macro Score: 0.93808
+1000/1000 - 14s - loss: 0.0902 - accuracy: 0.9679 - val_loss: 0.0884 - val_accuracy: 0.9672
+Epoch 34/180
+F1 Macro Score: 0.93848
+1000/1000 - 14s - loss: 0.0895 - accuracy: 0.9680 - val_loss: 0.0878 - val_accuracy: 0.9672
+Epoch 35/180
+F1 Macro Score: 0.93836
+1000/1000 - 14s - loss: 0.0894 - accuracy: 0.9680 - val_loss: 0.0884 - val_accuracy: 0.9672
+Epoch 36/180
+F1 Macro Score: 0.93762
+1000/1000 - 14s - loss: 0.0888 - accuracy: 0.9681 - val_loss: 0.0883 - val_accuracy: 0.9672
+Epoch 37/180
+F1 Macro Score: 0.93741
+1000/1000 - 14s - loss: 0.0888 - accuracy: 0.9681 - val_loss: 0.0885 - val_accuracy: 0.9672
+Epoch 38/180
+F1 Macro Score: 0.93658
+1000/1000 - 14s - loss: 0.0886 - accuracy: 0.9684 - val_loss: 0.0905 - val_accuracy: 0.9668
+Epoch 39/180
+F1 Macro Score: 0.93715
+1000/1000 - 14s - loss: 0.0876 - accuracy: 0.9685 - val_loss: 0.0892 - val_accuracy: 0.9670
+Epoch 40/180
+F1 Macro Score: 0.93788
+1000/1000 - 14s - loss: 0.0872 - accuracy: 0.9686 - val_loss: 0.0874 - val_accuracy: 0.9676
+Epoch 41/180
+F1 Macro Score: 0.94020
+1000/1000 - 14s - loss: 0.0862 - accuracy: 0.9690 - val_loss: 0.0855 - val_accuracy: 0.9681
+Epoch 42/180
+F1 Macro Score: 0.93969
+1000/1000 - 14s - loss: 0.0860 - accuracy: 0.9691 - val_loss: 0.0856 - val_accuracy: 0.9680
+Epoch 43/180
+F1 Macro Score: 0.94025
+1000/1000 - 14s - loss: 0.0862 - accuracy: 0.9690 - val_loss: 0.0854 - val_accuracy: 0.9681
+Epoch 44/180
+F1 Macro Score: 0.93979
+1000/1000 - 14s - loss: 0.0852 - accuracy: 0.9692 - val_loss: 0.0852 - val_accuracy: 0.9682
+Epoch 45/180
+F1 Macro Score: 0.94027
+1000/1000 - 14s - loss: 0.0860 - accuracy: 0.9691 - val_loss: 0.0857 - val_accuracy: 0.9682
+Epoch 46/180
+F1 Macro Score: 0.94057
+1000/1000 - 14s - loss: 0.0856 - accuracy: 0.9692 - val_loss: 0.0845 - val_accuracy: 0.9684
+Epoch 47/180
+F1 Macro Score: 0.94032
+1000/1000 - 14s - loss: 0.0856 - accuracy: 0.9692 - val_loss: 0.0852 - val_accuracy: 0.9682
+Epoch 48/180
+F1 Macro Score: 0.94044
+1000/1000 - 14s - loss: 0.0851 - accuracy: 0.9693 - val_loss: 0.0848 - val_accuracy: 0.9682
+Epoch 49/180
+F1 Macro Score: 0.94061
+1000/1000 - 14s - loss: 0.0851 - accuracy: 0.9693 - val_loss: 0.0845 - val_accuracy: 0.9684
+Epoch 50/180
+F1 Macro Score: 0.94025
+1000/1000 - 14s - loss: 0.0846 - accuracy: 0.9694 - val_loss: 0.0844 - val_accuracy: 0.9684
+Epoch 51/180
+F1 Macro Score: 0.94036
+1000/1000 - 14s - loss: 0.0843 - accuracy: 0.9695 - val_loss: 0.0842 - val_accuracy: 0.9684
+Epoch 52/180
+F1 Macro Score: 0.94024
+1000/1000 - 14s - loss: 0.0841 - accuracy: 0.9696 - val_loss: 0.0844 - val_accuracy: 0.9683
+Epoch 53/180
+F1 Macro Score: 0.94037
+1000/1000 - 14s - loss: 0.0842 - accuracy: 0.9694 - val_loss: 0.0844 - val_accuracy: 0.9683
+Epoch 54/180
+F1 Macro Score: 0.94078
+1000/1000 - 14s - loss: 0.0842 - accuracy: 0.9695 - val_loss: 0.0842 - val_accuracy: 0.9684
+Epoch 55/180
+F1 Macro Score: 0.94068
+1000/1000 - 14s - loss: 0.0843 - accuracy: 0.9695 - val_loss: 0.0841 - val_accuracy: 0.9684
+Epoch 56/180
+F1 Macro Score: 0.93979
+1000/1000 - 14s - loss: 0.0840 - accuracy: 0.9695 - val_loss: 0.0853 - val_accuracy: 0.9681
+Epoch 57/180
+F1 Macro Score: 0.93868
+1000/1000 - 14s - loss: 0.0835 - accuracy: 0.9696 - val_loss: 0.0861 - val_accuracy: 0.9678
+Epoch 58/180
+F1 Macro Score: 0.94074
+1000/1000 - 14s - loss: 0.0829 - accuracy: 0.9697 - val_loss: 0.0840 - val_accuracy: 0.9684
+Epoch 59/180
+F1 Macro Score: 0.94036
+1000/1000 - 14s - loss: 0.0838 - accuracy: 0.9696 - val_loss: 0.0841 - val_accuracy: 0.9684
+Epoch 60/180
+F1 Macro Score: 0.94035
+1000/1000 - 14s - loss: 0.0835 - accuracy: 0.9696 - val_loss: 0.0839 - val_accuracy: 0.9684
+Epoch 61/180
+F1 Macro Score: 0.94035
+1000/1000 - 14s - loss: 0.0832 - accuracy: 0.9697 - val_loss: 0.0843 - val_accuracy: 0.9683
+Epoch 62/180
+F1 Macro Score: 0.94050
+1000/1000 - 14s - loss: 0.0833 - accuracy: 0.9696 - val_loss: 0.0837 - val_accuracy: 0.9685
+Epoch 63/180
+F1 Macro Score: 0.93861
+1000/1000 - 14s - loss: 0.0828 - accuracy: 0.9698 - val_loss: 0.0858 - val_accuracy: 0.9678
+Epoch 64/180
+F1 Macro Score: 0.94038
+1000/1000 - 14s - loss: 0.0831 - accuracy: 0.9697 - val_loss: 0.0839 - val_accuracy: 0.9684
+Epoch 65/180
+F1 Macro Score: 0.94011
+1000/1000 - 14s - loss: 0.0828 - accuracy: 0.9698 - val_loss: 0.0839 - val_accuracy: 0.9684
+Epoch 66/180
+F1 Macro Score: 0.94093
+1000/1000 - 14s - loss: 0.0829 - accuracy: 0.9697 - val_loss: 0.0838 - val_accuracy: 0.9686
+Epoch 67/180
+F1 Macro Score: 0.94077
+1000/1000 - 14s - loss: 0.0829 - accuracy: 0.9698 - val_loss: 0.0835 - val_accuracy: 0.9685
+Epoch 68/180
+F1 Macro Score: 0.94032
+1000/1000 - 14s - loss: 0.0826 - accuracy: 0.9698 - val_loss: 0.0838 - val_accuracy: 0.9685
+Epoch 69/180
+F1 Macro Score: 0.94026
+1000/1000 - 14s - loss: 0.0826 - accuracy: 0.9698 - val_loss: 0.0842 - val_accuracy: 0.9683
+Epoch 70/180
+F1 Macro Score: 0.93939
+1000/1000 - 14s - loss: 0.0824 - accuracy: 0.9699 - val_loss: 0.0848 - val_accuracy: 0.9681
+Epoch 71/180
+F1 Macro Score: 0.94071
+1000/1000 - 14s - loss: 0.0825 - accuracy: 0.9698 - val_loss: 0.0834 - val_accuracy: 0.9686
+Epoch 72/180
+F1 Macro Score: 0.93924
+1000/1000 - 14s - loss: 0.0821 - accuracy: 0.9700 - val_loss: 0.0848 - val_accuracy: 0.9681
+Epoch 73/180
+F1 Macro Score: 0.94054
+1000/1000 - 14s - loss: 0.0821 - accuracy: 0.9699 - val_loss: 0.0834 - val_accuracy: 0.9685
+Epoch 74/180
+F1 Macro Score: 0.94078
+1000/1000 - 14s - loss: 0.0822 - accuracy: 0.9699 - val_loss: 0.0836 - val_accuracy: 0.9686
+Epoch 75/180
+F1 Macro Score: 0.94059
+1000/1000 - 14s - loss: 0.0822 - accuracy: 0.9699 - val_loss: 0.0834 - val_accuracy: 0.9685
+Epoch 76/180
+F1 Macro Score: 0.93926
+1000/1000 - 14s - loss: 0.0818 - accuracy: 0.9699 - val_loss: 0.0843 - val_accuracy: 0.9683
+Epoch 77/180
+F1 Macro Score: 0.94060
+1000/1000 - 14s - loss: 0.0818 - accuracy: 0.9700 - val_loss: 0.0835 - val_accuracy: 0.9685
+Epoch 78/180
+F1 Macro Score: 0.94049
+1000/1000 - 14s - loss: 0.0826 - accuracy: 0.9698 - val_loss: 0.0842 - val_accuracy: 0.9683
+Epoch 79/180
+F1 Macro Score: 0.94056
+1000/1000 - 14s - loss: 0.0814 - accuracy: 0.9700 - val_loss: 0.0836 - val_accuracy: 0.9685
+Epoch 80/180
+F1 Macro Score: 0.94045
+1000/1000 - 14s - loss: 0.0816 - accuracy: 0.9700 - val_loss: 0.0836 - val_accuracy: 0.9684
+Epoch 81/180
+F1 Macro Score: 0.94098
+1000/1000 - 14s - loss: 0.0817 - accuracy: 0.9700 - val_loss: 0.0834 - val_accuracy: 0.9685
